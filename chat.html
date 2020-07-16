@@ -1,0 +1,74 @@
+<html>
+   <head>
+    <meta charset="UTF-8">
+      </meta>
+      <title>Job finder</title>
+      <link rel = "stylesheet" href = "chat.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+   </head>
+   <body>
+      <div class="chat">
+         <div class="chat-container">
+            <div id="call" class="user-bar">
+               <div class="avatar">
+                  <img src="Job-finder-icon.png" alt="Avatar">
+               </div>
+               <div class="name">
+                  <span id="name">Job Finder</span>
+               </div>
+            </div>
+            <div id="choose-bar" class="user-bar">
+                <div id="chat-div" style="width: 25%;text-align: center;">
+                    CHAT
+                </div>
+                <div id="my-jobs-div" style="width: 25%;text-align: center;">
+                    MY JOBS
+                </div>
+                <div id="profile-div" style="width: 25%;text-align: center;">
+                    PROFILE
+                </div>
+                <div id="learn-div" style="width: 25%;text-align: center;">
+                    LEARN
+                </div>
+             </div>
+            <div class="conversation">
+               <div class="conversation-container">
+                  <span id="ap">
+                  </span>
+               </div>
+               <div class="conversation-container-myjobs" style="display:block;">
+                <span id="ap-myjobs">
+                </span>
+             </div>
+             <div class="conversation-container-profile" style="display:block;">
+                <span id="ap-profile">
+                </span>
+             </div>
+             <div class="conversation-container-learn" style="display:block;">
+                <span id="ap-learn">
+                </span>
+             </div>
+               <form id="form" class="conversation-compose">
+                  <input id="val" class="input-msg" name="input" placeholder="Type a message" autocomplete="off" autofocus></input>
+                  <div class="photo">
+                     <i class="zmdi zmdi-camera"></i>
+                  </div>
+                  <span id="speak"></span>
+                  <span class="send">
+                     <div class="circle">
+                        <i id="msend" class="zmdi zmdi-mail-send"></i>
+                     </div>
+                  </span>
+               </form>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+   </body>
+</html>
+
+<script src="chat.js"></script>
